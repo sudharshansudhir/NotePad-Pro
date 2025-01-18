@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NotePad-SSR</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="pop-bg" class="pop-bg"></div>
+    <div id="navbar" class="navbar">
+      <h1>NotePad</h1>
+    </div>
+    <div class="container" id="container"></div>
+
+    <div class="pop" id="pop">
+      <form action="#">
+        <h2>New Note</h2>
+        <input
+          type="text"
+          class="pop-box"
+          name="title"
+          id="p-title"
+          placeholder="Enter your title"
+        /><br />
+        <input
+          type="text"
+          class="pop-box"
+          name="content"
+          id="p-content"
+          placeholder="Enter your Note"
+        /><br />
+        <textarea
+          id="p-desc"
+          class="pop-box"
+          placeholder="Enter your Description"
+        ></textarea
+        ><br />
+        <div class="btn">
+          <button class="pop-btn" onclick="abortfun1(event)">Done</button>
+          <button class="pop-btn" onclick="abortfun2(event)">Cancel</button>
+        </div>
+      </form>
+    </div>
+<div></div>
+    <div id="new">
+      <button id="new-btn"> + </button>
+    </div>
+    
+    <div class="footer" id="footer">
+      <h3><a href="https://www.linkedin.com/in/sudharshan-r-b07600298/">LinkedIn</a></h3>
+      <h3><a href="https://www.linkedin.com/in/sudharshan-r-b07600298/">Website</a></h3>
+      <h3><a href="https://www.instagram.com/sudhir_ssr/profilecard/?igsh=MTZmenhoM3Y3OWcwbg==">Instagram</a></h3>
+      <h3><a href="mailto:sudhir.ssr@gmail.com">Email</a></h3>
+      <h3><a href="https://wa.me/919345558194">Whatsapp</a></h3>
+    </div>
+   
+
+    <script src="index.js"></script>
+  </body>
+</html>
